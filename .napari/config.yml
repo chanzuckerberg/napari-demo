@@ -4,3 +4,8 @@ authors:
     email: zliu@chanzuckerberg.com
   - name: Justin T. Kiggins
     orcid: 0000-0002-4638-7015
+project_urls:
+    Bug Tracker: https://github.com/spacetx/starfish/issues
+    Documentation: https://spacetx-starfish.readthedocs.io/en/latest/
+    Source Code: https://github.com/spacetx/starfish
+    User Support: https://forum.image.sc/tag/starfish
