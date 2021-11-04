@@ -40,7 +40,6 @@ setup(
     use_scm_version=use_scm,
     setup_requires=['setuptools_scm'],
     project_urls={'Source Code': 'https://github.com/ziyangczi/napari-demo'},
-         'Bug Tracker = https://github.com/ziyangczi/napari-demo',
          'Documentation = https://github.com/ziyangczi/napari-demo',
          'Source Code = https://github.com/ziyangczi/napari-demo',
          'User Support = https://github.com/ziyangczi/napari-demo',
