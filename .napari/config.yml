@@ -1,11 +1,18 @@
 visibility: hidden
 authors:
-  - name: Ziyang Liu
-    email: zliu@chanzuckerberg.com
+  - name: Laura Marcos
+    email: lmarcos@chanzuckerberg.com
   - name: Justin T. Kiggins
     orcid: 0000-0002-4638-7015
+  - name: Brian Long
+    orcid: 0000-0002-7793-5969
+  - name: Kevin A. Yamauchi
+    orcid: 0000-0002-7818-1388  
 project_urls:
     Bug Tracker: https://github.com/spacetx/starfish/issues
     Documentation: https://spacetx-starfish.readthedocs.io/en/latest/
     Source Code: https://github.com/spacetx/starfish
     User Support: https://forum.image.sc/tag/starfish
+    Project Site: https://spacetx-starfish.readthedocs.io/en/latest/
+    Report Issues: https://github.com/spacetx/starfish/issues
+    Twitter: https://twitter.com/cziscience
