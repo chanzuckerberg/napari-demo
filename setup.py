@@ -40,8 +40,8 @@ setup(
     use_scm_version=use_scm,
     setup_requires=['setuptools_scm'],
     project_urls={'Source Code': 'https://github.com/ziyangczi/napari-demo'},
-         'Documentation = https://github.com/ziyangczi/napari-demo',
-         'Twitter = https://twitter.com/napari_imaging',
+         'Documentation': 'https://github.com/ziyangczi/napari-demo',
+         'Twitter': 'https://twitter.com/napari_imaging',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
