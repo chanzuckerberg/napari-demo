@@ -28,7 +28,6 @@ setup(
     name='laura- napari-demo',
     author='la laura',
     author_email='lmarcos@chanzuckerberg.com',
-    license='BSD-3',
     url='https://github.com/ziyangczi/napari-demo',
     description='demo plugin',
     long_description=read('README.md'),
@@ -40,17 +39,12 @@ setup(
     setup_requires=['setuptools_scm'],
     project_urls={'Source Code': 'https://github.com/ziyangczi/napari-demo'},
     classifiers=[
-        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'Framework :: napari',
         'Topic :: Software Development :: Testing',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9',
         'Operating System :: OS Independent',
-        'License :: OSI Approved :: BSD License',
     ],
     entry_points={
         'napari.plugin': [
