@@ -25,20 +25,20 @@ with open('requirements.txt') as f:
 use_scm = {"write_to": "napari_demo/_version.py"}
 
 setup(
-    name='napari-demo',
-    author='Ziyang Liu',
+    name='napari-is-cool',
+    author='Jeremy Asuncion',
     author_email='zliu@chanzuckerberg.com',
-    license='BSD-3',
-    url='https://github.com/ziyangczi/napari-demo',
-    description='demo plugin',
+    license='MIT',
+    url='https://github.com/chanzuckerberg/napari-demo',
+    description='the coolest demo plugin',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
     packages=find_packages(),
-    python_requires='>=3.6',
+    python_requires='>=3.9',
     install_requires=requirements,
     use_scm_version=use_scm,
     setup_requires=['setuptools_scm'],
-    project_urls={'Source Code': 'https://github.com/ziyangczi/napari-demo'},
+    project_urls={'Source Code': 'https://github.com/chanzuckerberg/napari-demo'},
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
@@ -50,7 +50,10 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Operating System :: OS Independent',
-        'License :: OSI Approved :: BSD License',
+        'Operating System :: Microsoft :: Windows :: Windows 10',
+        'Operating System :: POSIX :: Linux',
+        'Operating System :: POSIX :: GNU Hurd',
+        'License :: OSI Approved :: MIT License',
     ],
     entry_points={
         'napari.plugin': [
