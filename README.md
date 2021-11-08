@@ -1,4 +1,4 @@
-# napari-demo
+# napari-demo-lau
 
 [![License](https://img.shields.io/pypi/l/napari-demo.svg?color=green)](https://github.com/ziyangczi/napari-demo/raw/master/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/napari-demo.svg?color=green)](https://pypi.org/project/napari-demo)
