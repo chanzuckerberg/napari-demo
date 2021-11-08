@@ -29,7 +29,7 @@ setup(
     author='la laura',
     author_email='lmarcos@chanzuckerberg.com',
     url='https://github.com/ziyangczi/napari-demo',
-    description='demo plugin',
+    description='laurita',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
     packages=find_packages(),
@@ -37,14 +37,10 @@ setup(
     install_requires=requirements,
     use_scm_version=use_scm,
     setup_requires=['setuptools_scm'],
-    project_urls={'Source Code': 'https://github.com/ziyangczi/napari-demo'},
     classifiers=[
         'Intended Audience :: Developers',
         'Framework :: napari',
         'Topic :: Software Development :: Testing',
-        'Programming Language :: Python',
-        'Programming Language :: Python :: 3',
-        'Operating System :: OS Independent',
     ],
     entry_points={
         'napari.plugin': [
