@@ -28,7 +28,7 @@ setup(
     name='laura- napari-demo',
     author='la laura',
     author_email='lmarcos@chanzuckerberg.com',
-    url='https://github.com/ziyangczi/napari-demo',
+    url='https://github.com/chanzuckerberg/napari-demo',
     description='laurita',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
