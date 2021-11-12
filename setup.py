@@ -29,7 +29,7 @@ setup(
     author='la laura',
     author_email='lmarcos@chanzuckerberg.com',
     url='https://github.com/chanzuckerberg/napari-demo',
-    summary = 'Pipelines and pipeline components for the analysis of image-based transcriptomics data'
+    description='laurita',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
     packages=find_packages(),
