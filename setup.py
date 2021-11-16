@@ -30,7 +30,7 @@ setup(
     author_email='laura.marcos@chanzuckerberg.com',
     license='BSD-3',
     url='https://github.com/chanzuckerberg/napari-demo',
-    description='laurita demo plugin',
+    description='laurita demo',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
     packages=find_packages(),
