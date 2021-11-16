@@ -25,12 +25,12 @@ with open('requirements.txt') as f:
 use_scm = {"write_to": "napari_demo/_version.py"}
 
 setup(
-    name='napari-demo',
-    author='Ziyang Liu',
-    author_email='zliu@chanzuckerberg.com',
+    name='qa-plugin-napari-demo',
+    author='Laura Marcos',
+    author_email='laura.marcos@chanzuckerberg.com',
     license='BSD-3',
-    url='https://github.com/ziyangczi/napari-demo',
-    description='demo plugin',
+    url='https://github.com/chanzuckerberg/napari-demo',
+    description='laurita demo plugin',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
     packages=find_packages(),
@@ -38,7 +38,10 @@ setup(
     install_requires=requirements,
     use_scm_version=use_scm,
     setup_requires=['setuptools_scm'],
-    project_urls={'Source Code': 'https://github.com/ziyangczi/napari-demo'},
+    project_urls={'Source Code': 'https://github.com/chanzuckerberg/napari-demo',
+                 'Bug Tracker': 'https://github.com/chanzuckerberg/napari-demo/issues',
+                 'Documentation': 'https://github.com/chanzuckerberg/napari-demo',
+                 'User Support': 'https://forum.image.sc'},
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
