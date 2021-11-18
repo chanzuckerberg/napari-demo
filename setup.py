@@ -26,6 +26,7 @@ use_scm = {"write_to": "napari_demo/_version.py"}
 
 setup(
     url='https://github.com/ziyangczi/napari-demo',
+    description='laurita plugin demo',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
     packages=find_packages(),
