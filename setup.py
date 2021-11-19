@@ -28,6 +28,7 @@ setup(
     url='https://github.com/ziyangczi/napari-demo',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
+    description='laurita plugin demo',
     packages=find_packages(),
     install_requires=requirements,
     use_scm_version=use_scm,
