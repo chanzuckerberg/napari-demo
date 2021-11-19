@@ -34,6 +34,10 @@ setup(
     install_requires=requirements,
     use_scm_version=use_scm,
     setup_requires=['setuptools_scm'],
+    project_urls={'Source Code': 'https://github.com/chanzuckerberg/napari-demo',
+                 'Bug Tracker': 'https://github.com/chanzuckerberg/napari-demo/issues',
+                 'Documentation': 'https://github.com/chanzuckerberg/napari-demo',
+                 'User Support': 'https://forum.image.sc'},
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
