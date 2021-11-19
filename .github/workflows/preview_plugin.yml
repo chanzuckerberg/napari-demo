@@ -17,4 +17,4 @@ jobs:
       - name: napari hub Preview Page Builder
         uses: ./preview-action
         with:
-          hub-ref: main
+          hub-ref: jeremy/trim-preview-metadata
