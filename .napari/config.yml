@@ -9,6 +9,4 @@ authors:
 labels:
   ontology: EDAM-BIOIMAGING:alpha06
   terms:
-  - Manual segmentation
   - 3D image
-  - Image segmentation

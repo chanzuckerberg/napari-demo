@@ -29,7 +29,7 @@ setup(
     author='Ziyang Liu',
     author_email='zliu@chanzuckerberg.com',
     license='BSD-3',
-    url='https://github.com/ziyangczi/napari-demo',
+    url='https://github.com/chanzuckerberg/napari-demo',
     description='demo plugin',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
