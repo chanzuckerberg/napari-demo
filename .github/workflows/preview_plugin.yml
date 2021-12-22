@@ -1,0 +1,26 @@
+name: Preview Page
+
+on:
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  preview-page:
+    name: Preview Page Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: napari hub Preview Page Builder
+        uses: chanzuckerberg/napari-hub-preview-action@v0.1.5
+        with:
+          hub-ref: dev-fix-github-fork-reading
+
+      - name: Create artifact from preview.json
+        uses: actions/upload-artifact@v2
+        with:
+          name: preview-page-json
+          path: napari-hub/frontend/preview.json

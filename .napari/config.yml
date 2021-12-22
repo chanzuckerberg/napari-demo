@@ -1,6 +1,12 @@
 visibility: hidden
 authors:
-  - name: Ziyang Liu
+  - name: Another Ziyang Liu
     email: zliu@chanzuckerberg.com
-  - name: Justin T. Kiggins
+  - name: Another Justin T. Kiggins
     orcid: 0000-0002-4638-7015
+
+# Add labels the plugin from the EDAM Bioimaging ontology
+labels:
+  ontology: EDAM-BIOIMAGING:alpha06
+  terms:
+    - 3D image
