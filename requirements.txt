@@ -1,2 +1,5 @@
 napari-plugin-engine>=0.1.4
+app-model>=0.0.9,<0.3.0
+pydantic
+npe2
 numpy

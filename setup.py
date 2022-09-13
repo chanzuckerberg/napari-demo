@@ -53,8 +53,8 @@ setup(
         'License :: OSI Approved :: BSD License',
     ],
     entry_points={
-        'napari.plugin': [
-            'napari-demo = napari_demo',
+        'napari.manifest': [
+            'napari-demo = napari_demo:napari.yaml',
         ],
     },
 )
