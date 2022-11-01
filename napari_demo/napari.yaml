@@ -59,7 +59,7 @@ contributions:
       display_name: calculate a new layer arithmetically from two existing layers
       autogenerate: true
   menus:
-    napari/layers/context: # FIXME move this somewhere else after more menu contribution is defined
+    napari/tools/utilities:
       - submenu: hello_world
       - command: napari-demo.about
     hello_world:
