@@ -17,4 +17,4 @@ jobs:
       - name: napari hub Preview Page Builder
         uses: DragaDoncila/napari-hub-preview-action@install-npe2
         with:
-          hub-ref: update-preview
+          hub-ref: fix-save-layers
