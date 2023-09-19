@@ -2,6 +2,8 @@ name: napari-demo
 display_name: Demo plugin ported from npe2 example
 on_activate: napari_demo:activate
 on_deactivate: napari_demo:deactivate
+categories: ["Acquisition", "Dataset", "Segmentation"]
+visibility: "hidden"
 contributions:
   commands:
     - id: napari-demo.about
